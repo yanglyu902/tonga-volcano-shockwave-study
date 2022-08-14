@@ -81,7 +81,7 @@ def fetch_data():
     """Our main method"""
     # timestamps in UTC to request data for
     startts = datetime.datetime(2022, 1, 15, 0, 0, 0)
-    endts = datetime.datetime(2022, 1, 20, 0, 0, 0)
+    endts = datetime.datetime(2022, 1, 25, 0, 0, 0)
 
     SERVICE = "https://mesonet.agron.iastate.edu/request/asos/1min_dl.php?"
     service_part1 = SERVICE + "station%5B%5D="
@@ -108,7 +108,7 @@ def fetch_data():
 
     for thread in threads:
         thread.start()
-        time.sleep(0.1)
+        time.sleep(0.2)
 
     for thread in threads:
         thread.join()
