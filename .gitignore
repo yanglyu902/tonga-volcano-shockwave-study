@@ -130,6 +130,4 @@ dmypy.json
 
 # data
 *.csv
-data/
-data_animation/
-.DS_Store
+*.DS_Store

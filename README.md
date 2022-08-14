@@ -6,6 +6,8 @@ Content:
 - get_data.py: downloading data from the ASOS website. 
 - analysis.ipynb: experimentations for data processing and visualization.
 - multiple-shockwaves.ipynb: generate animations for multiple wavefronts given a time window.
+- data/: stores airport locations data and raw measurements.
+- data_animation: stores generated png files.
 
 This work is inspired by a homework in AY 250 at UC Berkeley: https://github.com/profjsb/python-seminar. 
 
