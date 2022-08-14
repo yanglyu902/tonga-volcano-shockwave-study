@@ -2,6 +2,11 @@
 
 We visualize the propagation of the Tonga volcano shockwave throughout the U.S. using airport air pressure data. 
 
+Content: 
+- get_data.py: downloading data from the ASOS website. 
+- analysis.ipynb: experimentations for data processing and visualization.
+- multiple-shockwaves.ipynb: generate animations for multiple wavefronts given a time window.
+
 This work is inspired by a homework in AY 250 at UC Berkeley: https://github.com/profjsb/python-seminar. 
 
 An example animation is the following:
